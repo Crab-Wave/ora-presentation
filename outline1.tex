@@ -1,0 +1,68 @@
+\documentclass[11pt, a4paper]{outline}
+
+\usepackage[french]{babel}
+\usepackage{float}
+\usepackage{stackengine}
+\usepackage{tocloft}
+
+\title{Projet ORA}
+\team{Crab Wave}
+\author{leo.benito  •  raffael.moraisin  •  adam.thibert  •  pierre-corentin.auger}
+\university{EPITA}
+\date{6 mars 2020}
+\email{contact@crabwave.com}
+\homepage{https://crabwave.com}
+\github{https://github.com/Crab-Wave}
+
+\logo{assets/logo.png}
+\background{assets/background.png}
+
+\lheader{Plan de soutenance}
+\rheader{Projet ORA}
+
+\restylefloat{table}
+
+\urlstyle{same}
+\newcommand*{\surl}[1]{{\bodyfont\color{clearocean}\selectfont\url{#1}}}
+
+\addto\captionsfrench{
+    \renewcommand*\contentsname{}
+}
+
+\addtocontents{toc}{\cftpagenumbersoff{chapter}}
+\addtocontents{toc}{\cftpagenumbersoff{section}}
+\addtocontents{toc}{\cftpagenumbersoff{subsection}}
+\addtocontents{toc}{\cftpagenumbersoff{subsubsection}}
+\renewcommand{\cftdot}{}
+\renewcommand\cftsecfont{\Large\color{orangecrab}\bfseries}
+\renewcommand\cftsubsecfont{\large\color{bluewave}\bfseries}
+\renewcommand\cftsubsubsecfont{\normalsize\color{darkora}\bfseries}
+\setlength\cftparskip{5pt}
+\setlength\cftbeforesecskip{15pt}
+\setlength\cftaftertoctitleskip{-10pt}
+
+\begin{document}
+  \maketitle{Plan de la première soutenance}
+  
+  \tableofcontents
+  \thispagestyle{empty}
+
+  \clearpage
+ 
+  \section{Introduction}
+    \subsection{Présentation du projet}
+    \subsection{Division des tâches}
+    \subsection{Planning de réalisation}
+    
+  \section{Tâches}
+    \subsection{Répartition des tâches}
+    \subsection{Tâches réalisées}
+    \subsection{Tâches à réaliser}
+    
+  \section{Démonstration de l'avancement}
+    \subsection{État actuel du site}
+    \subsection{Interactions entre l'application en ligne de commande et le Tracker}
+
+  \section{Conclusion}
+
+\end{document}
