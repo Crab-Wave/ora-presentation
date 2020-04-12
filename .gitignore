@@ -1,0 +1,13 @@
+output/
+_minted-report1/
+
+*.psd
+*.swp
+
+*.aux
+*.log
+*.out
+*.toc
+*.xdv
+*.fls
+*.fdb_latexmk
